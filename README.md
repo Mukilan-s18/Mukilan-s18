@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=MUKILAN%20S&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20%26%20ML%20Engineer%20%7C%20Building%20Intelligent%20Systems%20%26%20Modern%20Web%20Apps&descAlignY=62&descSize=16" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=MUKILAN%20S&fontSize=48&fontColor=70a5fd&animation=twinkling&fontAlignY=35&desc=AI%20%26%20ML%20Engineer%20%7C%20Building%20Intelligent%20Systems%20%26%20Modern%20Web%20Apps&descAlignY=60&descSize=17&descColor=c9d1d9" alt="header"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=Hey%2C+I%27m+Mukilan+S+%F0%9F%91%8B;AI+%26+ML+Engineering+Student;Python+%7C+React+%7C+TensorFlow+Developer;Turning+Data+into+Intelligence+%F0%9F%A7%A0;Building+End-to-End+AI+Solutions+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&height=60&lines=Hey%2C+I%27m+Mukilan+S+%F0%9F%91%8B;AI+%26+ML+Engineering+Student;Python+%7C+React+%7C+TensorFlow+Developer;Turning+Data+into+Intelligence+%F0%9F%A7%A0;Building+End-to-End+AI+Solutions+%F0%9F%9A%80" alt="Typing SVG"/>
 </p>
 
 <p align="center">
@@ -102,11 +102,9 @@ class Mukilan:
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Mukilan-s18&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10" alt="Mukilan's GitHub Stats"
-    onerror="this.src='https://github-readme-stats-eight-theta.vercel.app/api?username=Mukilan-s18&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10'"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Mukilan-s18&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10" alt="Mukilan's GitHub Stats"/>
   &nbsp;
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Mukilan-s18&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10" alt="Top Languages"
-    onerror="this.src='https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Mukilan-s18&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10'"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Mukilan-s18&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10" alt="Top Languages"/>
 </div>
 
 ---
@@ -130,8 +128,12 @@ class Mukilan:
 ## 🏆 Trophy Wall
 
 <div align="center">
-  <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=Mukilan-s18&theme=tokyonight&no-frame=true&no-bg=true&row=2&column=4&margin-w=8&margin-h=8" alt="Trophies"
-    onerror="this.src='https://github-profile-trophy-fork-two.vercel.app/?username=Mukilan-s18&theme=tokyonight&no-frame=true&no-bg=true&row=2&column=4&margin-w=8&margin-h=8'"/>
+
+[![Commits](https://github-profile-trophy.vercel.app/?username=Mukilan-s18&theme=tokyonight&no-frame=true&no-bg=true&title=Commits&margin-w=6)](https://github.com/Mukilan-s18)
+[![Repositories](https://github-profile-trophy.vercel.app/?username=Mukilan-s18&theme=tokyonight&no-frame=true&no-bg=true&title=Repositories&margin-w=6)](https://github.com/Mukilan-s18)
+[![Stars](https://github-profile-trophy.vercel.app/?username=Mukilan-s18&theme=tokyonight&no-frame=true&no-bg=true&title=Stars&margin-w=6)](https://github.com/Mukilan-s18)
+[![Followers](https://github-profile-trophy.vercel.app/?username=Mukilan-s18&theme=tokyonight&no-frame=true&no-bg=true&title=Followers&margin-w=6)](https://github.com/Mukilan-s18)
+
 </div>
 
 ---
@@ -139,7 +141,7 @@ class Mukilan:
 ## 💼 Work Experience
 
 <details>
-<summary><b>⚡ FIFA 2026 World Cup Predictive Analytics Engine — Project Lead | June 2026</b></summary>
+<summary><b>⚽ FIFA 2026 World Cup Predictive Analytics Engine — Project Lead | June 2026</b></summary>
 
 > `Python` `Scikit-Learn` `XGBoost` `Random Forest` `Logistic Regression` `React` `Vite` `Firebase` `Monte Carlo`
 
@@ -225,7 +227,7 @@ class Mukilan:
 ```
 🧱 Generative AI    → LLM Fine-Tuning, Prompt Engineering, RAG Pipelines
 🔬 Deep Learning    → Transformers, Attention Mechanisms, Vision Models
-☁️ MLOps            → Model Serving, Docker, CI/CD for ML, Azure ML
+☁️  MLOps           → Model Serving, Docker, CI/CD for ML, Azure ML
 📊 Advanced ML      → Ensemble Methods, Bayesian Optimization, AutoML
 🌐 Full-Stack AI    → FastAPI, Next.js, WebSockets, Real-Time Inference
 ```
@@ -233,7 +235,7 @@ class Mukilan:
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" alt="footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=120&section=footer&animation=twinkling" alt="footer"/>
 </p>
 
 <p align="center">
