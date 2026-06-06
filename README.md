@@ -126,9 +126,7 @@ class Mukilan:
 
 ## 🏆 Trophy Wall
 <div align="center">
-  <a href="https://github.com/Mukilan-s18">
-    <img src="https://github-profile-trophy.vercel.app/?username=Mukilan-s18" alt="Trophies" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=py,js,java,c,react,nodejs,vite,tensorflow,scikitlearn,firebase,azure,github,vscode,git&perline=7" alt="Skills" />
 </div>
 
 ---
