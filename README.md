@@ -291,6 +291,9 @@ class Mukilan:
 | 🏅 | Achievement | Details |
 |:---:|:---|:---|
 | 🏆 | **Winner - MANGO Platform AI/ML Workshop** | Organized by Walmart Center for Tech Excellence, IIT Madras (June 2026) |
+| 🏅 | **Applied Machine Learning and AI** | CII, Centre for AI |
+| 🏅 | **Machine Learning & Deep Learning Onramp** | MathWorks |
+| 🏅 | **Data Analytics & Cyber Job Simulations** | Deloitte |
 | 🤖 | **Microsoft Learn – AI & Gen AI Basics** | Certified by Microsoft Learn |
 | 🪁 | **Microsoft Learn – Microsoft Copilot** | Get Started with Microsoft Copilot certification |
 | 🗄️ | **LinkedIn Learning – Database Management** | Database Foundations: Database Management Certification |
