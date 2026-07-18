@@ -151,7 +151,7 @@ class Mukilan:
 ## 💼 Featured Work Experience
 
 <details>
-<summary><b>🔧 PumpDiagnosisChallenge — Computer Vision Engineer | July 2026</b></summary>
+<summary><b>🔧 PumpDiagnosisChallenge — Computer Vision Engineer | June 2026</b></summary>
 
 > `Python` `PyTorch` `ResNet18` `Transfer Learning` `STFT` `Computer Vision` `Predictive Maintenance`
 
@@ -162,7 +162,7 @@ class Mukilan:
 </details>
 
 <details>
-<summary><b>🔍 Defect-Detection — Anomaly Detection Engineer | July 2026</b></summary>
+<summary><b>🔍 Defect-Detection — Anomaly Detection Engineer | June 2026</b></summary>
 
 > `Python` `PyTorch` `PatchCore` `WideResNet50` `Unsupervised Learning` `Computer Vision`
 
