@@ -23,7 +23,7 @@
 
 ## 🧠 About Me
 
-<img align="right" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+<img align="right" width="260" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
 ```python
 class Mukilan:
@@ -35,19 +35,19 @@ class Mukilan:
         self.public_repos = 19
 
         self.stack = [
-            "Python", "JavaScript (ES6+)", "TypeScript", "Java", "C", "SQL",
-            "React.js", "Next.js", "Node.js", "FastAPI", "Vite",
-            "PyTorch", "TensorFlow", "Keras", "Scikit-Learn",
-            "NumPy", "Pandas", "Matplotlib", "XGBoost",
-            "LangGraph", "RAG Pipelines", "Gradio",
-            "Firebase", "Supabase", "GitHub Actions", "Docker"
+            "Python", "TypeScript", "Java", "C",
+            "React", "Next.js", "FastAPI", "Vite",
+            "PyTorch", "TensorFlow", "Keras",
+            "Scikit-Learn", "XGBoost", "Gradio",
+            "LangGraph", "RAG", "Gemini",
+            "Firebase", "Supabase", "Docker"
         ]
 
         self.currently_learning = [
-            "Advanced Deep Learning – Transformers & Vision Models",
-            "Generative AI & LLM Fine-Tuning",
-            "MLOps & Model Deployment Pipelines",
-            "Agentic AI Systems with LangGraph & Gemini",
+            "Transformers & Vision Models",
+            "LLM Fine-Tuning & RAG Pipelines",
+            "MLOps & Model Deployment",
+            "Agentic AI – LangGraph & Gemini",
             "Azure AI Services"
         ]
 
