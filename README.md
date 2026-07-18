@@ -23,14 +23,14 @@
 
 ## 🧠 About Me
 
-<img align="right" width="260" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+<img align="right" width="220" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
 ```python
 class Mukilan:
     def __init__(self):
         self.name         = "Mukilan S"
         self.location     = "Chennai, Tamil Nadu 🇮🇳"
-        self.degree       = "B.Tech – AI & ML @ Rajalakshmi Engineering College (2028)"
+        self.degree       = "B.Tech – AI & ML @ REC, Chennai (2028)"
         self.email        = "mukilans25361@gmail.com"
         self.public_repos = 19
 
@@ -51,7 +51,7 @@ class Mukilan:
             "Azure AI Services"
         ]
 
-        self.fun_fact = "I validated my ML model by predicting the 2022 WC finalists! ⚽"
+        self.fun_fact = "Predicted both 2022 WC finalists with my ML model! ⚽"
 
     def motto(self):
         return "Build. Learn. Deploy. Repeat. 🚀"
