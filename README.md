@@ -150,6 +150,16 @@ class Mukilan:
 
 ## 💼 Featured Work Experience
 
+<details open>
+<summary><b>🤖 Internship in Generative AI — Altruisty Innovation Pvt Ltd | February 2026</b></summary>
+
+> `Generative AI` `LLMs` `AI Workflows`
+
+- 🚀 Completed an intensive 15-day internship focused on **Generative AI** technologies.
+- 🧠 Gained hands-on experience and deep insights into the rapidly evolving field of GenAI and large language models.
+
+</details>
+
 <details>
 <summary><b>🔧 PumpDiagnosisChallenge — Computer Vision Engineer | June 2026</b></summary>
 
@@ -280,6 +290,7 @@ class Mukilan:
 
 | 🏅 | Achievement | Details |
 |:---:|:---|:---|
+| 🏆 | **Winner - MANGO Platform AI/ML Workshop** | Organized by Walmart Center for Tech Excellence, IIT Madras (June 2026) |
 | 🤖 | **Microsoft Learn – AI & Gen AI Basics** | Certified by Microsoft Learn |
 | 🪁 | **Microsoft Learn – Microsoft Copilot** | Get Started with Microsoft Copilot certification |
 | 🗄️ | **LinkedIn Learning – Database Management** | Database Foundations: Database Management Certification |
