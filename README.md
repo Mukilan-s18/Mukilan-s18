@@ -125,15 +125,10 @@ class Mukilan:
 
 ---
 
-## 🔥 Contribution Stats
+## 🔥 Streak Stats
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Mukilan-s18&theme=tokyonight" alt="Stats"/>
-  &nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mukilan-s18&theme=tokyonight&utcOffset=5.5" alt="Productive Time"/>
-</div>
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mukilan-s18&theme=tokyonight" alt="Profile Details"/>
+  <img src="https://streak-stats.demolab.com?user=Mukilan-s18&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10" alt="GitHub Streak"/>
 </div>
 
 ---
