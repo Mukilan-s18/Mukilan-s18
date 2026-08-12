@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://github.com/Mukilan-s18">
-    <img src="https://komarev.com/ghpvc/?username=Mukilan-s18&label=Profile+Views&color=70a5fd&style=flat-square" alt="Profile Views"/>
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=Mukilan-s18.Mukilan-s18&left_text=Profile%20Views&right_color=%2370a5fd" alt="Profile Views"/>
   </a>
   <a href="https://www.linkedin.com/in/mukilan-s2486">
     <img src="https://img.shields.io/badge/LinkedIn-Mukilan%20S-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
