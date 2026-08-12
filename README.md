@@ -118,9 +118,9 @@ class Mukilan:
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Mukilan-s18&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10" alt="Mukilan's GitHub Stats"/>
+  <img height="180em" src="./github-metrics/stats.svg" alt="Mukilan's GitHub Stats"/>
   &nbsp;
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Mukilan-s18&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10" alt="Top Languages"/>
+  <img height="180em" src="./github-metrics/top-langs.svg" alt="Top Languages"/>
 </div>
 
 ---
