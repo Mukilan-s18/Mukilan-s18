@@ -118,9 +118,9 @@ class Mukilan:
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="./github-metrics/stats.svg" alt="Mukilan's GitHub Stats"/>
+  <img height="180em" src="./github-metrics/stats.svg?v=1" alt="Mukilan's GitHub Stats"/>
   &nbsp;
-  <img height="180em" src="./github-metrics/top-langs.svg" alt="Top Languages"/>
+  <img height="180em" src="./github-metrics/top-langs.svg?v=1" alt="Top Languages"/>
 </div>
 
 ---
