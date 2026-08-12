@@ -17,17 +17,17 @@ jobs:
       - name: Generate GitHub Stats Card
         uses: stats-organization/github-readme-stats-action@v2
         with:
-          token: ${{ secrets.GH_PAT }}
+          token: ${{ secrets.STREAK_STATS_TOKEN }}
           card: stats
-          options: "username=Mukilan-s18&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10"
+          options: "username=Mukilan-s18&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10"
           path: github-metrics/stats.svg
 
       - name: Generate GitHub Top Langs Card
         uses: stats-organization/github-readme-stats-action@v2
         with:
-          token: ${{ secrets.GH_PAT }}
+          token: ${{ secrets.STREAK_STATS_TOKEN }}
           card: top-langs
-          options: "username=Mukilan-s18&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10"
+          options: "username=Mukilan-s18&layout=compact&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10"
           path: github-metrics/top-langs.svg
 
       - name: Commit and push generated cards
