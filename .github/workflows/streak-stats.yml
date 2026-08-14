@@ -8,18 +8,20 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          token: ${{ secrets.STREAK_STATS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           options: user=${{ github.repository_owner }}&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10
           path: streak.svg
       - name: Commit streak stats
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add streak.svg
-          git commit -m "Update streak stats" || exit 0
+          git diff --cached --quiet || git commit -m "Update streak stats"
           git push
