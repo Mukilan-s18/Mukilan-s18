@@ -7,23 +7,23 @@
 
 <p align="center">
   <a href="https://github.com/Mukilan-s18">
-    <img src="https://komarev.com/ghpvc/?username=Mukilan-s18&label=Profile+Views&color=ded39e&style=flat-square&labelColor=0d1117" alt="Profile Views"/>
+    <img src="https://komarev.com/ghpvc/?username=Mukilan-s18&label=Profile+Views&color=ded39e&style=flat-square" alt="Profile Views"/>
   </a>
   <a href="https://mukilans.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-mukilans.vercel.app-ded39e?style=flat-square&logo=vercel&logoColor=0d1117&labelColor=0d1117" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-mukilans.vercel.app-ded39e?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/>
   </a>
   <a href="https://www.linkedin.com/in/mukilan-s2486">
-    <img src="https://img.shields.io/badge/LinkedIn-Mukilan%20S-ded39e?style=flat-square&logo=linkedin&logoColor=0d1117&labelColor=0d1117" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Mukilan%20S-ded39e?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:mukilans25361@gmail.com">
-    <img src="https://img.shields.io/badge/Email-mukilans25361%40gmail.com-ded39e?style=flat-square&logo=gmail&logoColor=0d1117&labelColor=0d1117" alt="Personal Email"/>
+    <img src="https://img.shields.io/badge/Email-mukilans25361%40gmail.com-ded39e?style=flat-square&logo=gmail&logoColor=white" alt="Personal Email"/>
   </a>
   <a href="mailto:mukilan.s.2024.aiml@rajalakshmi.edu.in">
-    <img src="https://img.shields.io/badge/Campus%20Email-mukilan.s.2024.aiml%40rajalakshmi.edu.in-ded39e?style=flat-square&logo=gmail&logoColor=0d1117&labelColor=0d1117" alt="Campus Email"/>
+    <img src="https://img.shields.io/badge/Campus%20Email-mukilan.s.2024.aiml%40rajalakshmi.edu.in-ded39e?style=flat-square&logo=gmail&logoColor=white" alt="Campus Email"/>
   </a>
-  <img src="https://img.shields.io/static/v1?label=Status&message=Open%20to%20Roles%20(hireable%3A%20true)&color=ded39e&labelColor=0d1117&style=flat-square&logo=github&logoColor=ded39e" alt="Status: Open to Roles (hireable: true)"/>
-  <img src="https://img.shields.io/badge/Repos-28-ded39e?style=flat-square&logo=github&logoColor=0d1117&labelColor=0d1117" alt="Public Repos"/>
-  <img src="https://img.shields.io/badge/Location-Chennai%2C%20Tamil%20Nadu-ded39e?style=flat-square&logo=googlemaps&logoColor=0d1117&labelColor=0d1117" alt="Location"/>
+  <img src="https://img.shields.io/static/v1?label=Status&message=Open%20to%20Roles%20(hireable%3A%20true)&color=ded39e&style=flat-square&logo=github&logoColor=white" alt="Status: Open to Roles (hireable: true)"/>
+  <img src="https://img.shields.io/badge/Repos-28-ded39e?style=flat-square&logo=github&logoColor=white" alt="Public Repos"/>
+  <img src="https://img.shields.io/badge/Location-Chennai%2C%20Tamil%20Nadu-ded39e?style=flat-square&logo=googlemaps&logoColor=white" alt="Location"/>
 </p>
 
 ---
