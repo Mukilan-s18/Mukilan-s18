@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,35:544320,70:9b8042,100:ded39e&height=200&section=header&text=MUKILAN%20S&fontSize=48&fontColor=ded39e&animation=twinkling&reversal=false&v=20261120" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:544320,70:9b8042,100:ded39e&height=200&section=header&text=MUKILAN%20S&fontSize=48&fontColor=ded39e&animation=twinkling&reversal=false&v=20261121" alt="header"/>
 </div>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=DED39E&center=true&vCenter=true&width=800&height=60&lines=Hey%2C+I%27m+Mukilan+S+%F0%9F%91%8B;AI+%26+ML+Engineering+Student;Python+%7C+Go+%7C+PyTorch+Developer;Building+Industrial+AI+%26+Cloud+SaaS+%F0%9F%A7%A0;Turning+Data+into+Intelligence+%F0%9F%9A%80" alt="Typing SVG"/>
@@ -10,20 +10,20 @@
     <img src="https://komarev.com/ghpvc/?username=Mukilan-s18&label=Profile+Views&color=ded39e&style=flat-square" alt="Profile Views"/>
   </a>
   <a href="https://mukilans.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-mukilans.vercel.app-ded39e?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-mukilans.vercel.app-ded39e?style=flat-square&logo=vercel&logoColor=white&labelColor=555555" alt="Portfolio"/>
   </a>
   <a href="https://www.linkedin.com/in/mukilan-s2486">
-    <img src="https://img.shields.io/badge/LinkedIn-Mukilan%20S-ded39e?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Mukilan%20S-ded39e?style=flat-square&logo=linkedin&logoColor=white&labelColor=555555" alt="LinkedIn"/>
   </a>
   <a href="mailto:mukilans25361@gmail.com">
-    <img src="https://img.shields.io/badge/Email-mukilans25361%40gmail.com-ded39e?style=flat-square&logo=gmail&logoColor=white" alt="Personal Email"/>
+    <img src="https://img.shields.io/badge/Email-mukilans25361%40gmail.com-ded39e?style=flat-square&logo=gmail&logoColor=white&labelColor=555555" alt="Personal Email"/>
   </a>
   <a href="mailto:mukilan.s.2024.aiml@rajalakshmi.edu.in">
-    <img src="https://img.shields.io/badge/Campus%20Email-mukilan.s.2024.aiml%40rajalakshmi.edu.in-ded39e?style=flat-square&logo=gmail&logoColor=white" alt="Campus Email"/>
+    <img src="https://img.shields.io/badge/Campus%20Email-mukilan.s.2024.aiml%40rajalakshmi.edu.in-ded39e?style=flat-square&logo=gmail&logoColor=white&labelColor=555555" alt="Campus Email"/>
   </a>
-  <img src="https://img.shields.io/static/v1?label=Status&message=Open%20to%20Roles%20(hireable%3A%20true)&color=ded39e&style=flat-square&logo=github&logoColor=white" alt="Status: Open to Roles (hireable: true)"/>
-  <img src="https://img.shields.io/badge/Repos-28-ded39e?style=flat-square&logo=github&logoColor=white" alt="Public Repos"/>
-  <img src="https://img.shields.io/badge/Location-Chennai%2C%20Tamil%20Nadu-ded39e?style=flat-square&logo=googlemaps&logoColor=white" alt="Location"/>
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Roles%20(hireable%3A%20true)-ded39e?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="Status: Open to Roles (hireable: true)"/>
+  <img src="https://img.shields.io/badge/Repos-28-ded39e?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="Public Repos"/>
+  <img src="https://img.shields.io/badge/Location-Chennai%2C%20Tamil%20Nadu-ded39e?style=flat-square&logo=googlemaps&logoColor=white&labelColor=555555" alt="Location"/>
 </p>
 
 ---
@@ -158,9 +158,9 @@ class Mukilan:
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./github-metrics/github-contribution-grid-dragon-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./github-metrics/github-contribution-grid-dragon.svg">
-    <img alt="GitHub Contribution Dragon" src="./github-metrics/github-contribution-grid-dragon-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./github-metrics/github-contribution-grid-dragon-dark.svg?v=20261121">
+    <source media="(prefers-color-scheme: light)" srcset="./github-metrics/github-contribution-grid-dragon.svg?v=20261121">
+    <img alt="GitHub Contribution Dragon" src="./github-metrics/github-contribution-grid-dragon-dark.svg?v=20261121" />
   </picture>
 </div>
 
@@ -169,7 +169,7 @@ class Mukilan:
 ## 📈 Activity Graph
 
 <div align="center">
-  <img src="./github-metrics/activity-graph.svg" alt="Activity Graph"/>
+  <img src="./github-metrics/activity-graph.svg?v=20261121" alt="Activity Graph"/>
 </div>
 
 ---
@@ -451,7 +451,7 @@ class Mukilan:
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,35:544320,70:9b8042,100:ded39e&height=120&section=footer&fontColor=ded39e&animation=twinkling&reversal=false&v=20261120" alt="footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:544320,70:9b8042,100:ded39e&height=120&section=footer&fontColor=ded39e&animation=twinkling&reversal=false&v=20261121" alt="footer"/>
 </div>
 <p align="center">
   <i>⭐ If you find my work interesting, consider giving a star to my repos!</i><br/>
