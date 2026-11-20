@@ -16,8 +16,12 @@
     <img src="https://img.shields.io/badge/LinkedIn-Mukilan%20S-ded39e?style=flat-square&logo=linkedin&logoColor=0d1117&labelColor=0d1117" alt="LinkedIn"/>
   </a>
   <a href="mailto:mukilans25361@gmail.com">
-    <img src="https://img.shields.io/badge/Email-mukilans25361%40gmail.com-ded39e?style=flat-square&logo=gmail&logoColor=0d1117&labelColor=0d1117" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-mukilans25361%40gmail.com-ded39e?style=flat-square&logo=gmail&logoColor=0d1117&labelColor=0d1117" alt="Personal Email"/>
   </a>
+  <a href="mailto:mukilan.s.2024.aiml@rajalakshmi.edu.in">
+    <img src="https://img.shields.io/badge/Campus%20Email-mukilan.s.2024.aiml%40rajalakshmi.edu.in-ded39e?style=flat-square&logo=gmail&logoColor=0d1117&labelColor=0d1117" alt="Campus Email"/>
+  </a>
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Roles%20%7C%20hireable%3A%20true-ded39e?style=flat-square&logo=github&logoColor=0d1117&labelColor=0d1117" alt="Status: Open to Roles (hireable: true)"/>
   <img src="https://img.shields.io/badge/Repos-28-ded39e?style=flat-square&logo=github&logoColor=0d1117&labelColor=0d1117" alt="Public Repos"/>
   <img src="https://img.shields.io/badge/Location-Chennai%2C%20Tamil%20Nadu-ded39e?style=flat-square&logo=googlemaps&logoColor=0d1117&labelColor=0d1117" alt="Location"/>
 </p>
@@ -34,9 +38,19 @@ class Mukilan:
         self.name         = "Mukilan S"
         self.location     = "Chennai, Tamil Nadu 🇮🇳"
         self.degree       = "B.Tech – AI & ML @ REC, Chennai (2028)"
+        self.status       = "Open to Roles (hireable: true) 💼"
         self.email        = "mukilans25361@gmail.com"
+        self.campus_email = "mukilan.s.2024.aiml@rajalakshmi.edu.in"
         self.portfolio    = "https://mukilans.vercel.app"
         self.public_repos = 28
+        self.pinned_repos = [
+            "Industrial-Operations-Brain",
+            "StampedeZero",
+            "Mukil-portfolio",
+            "FIFA-2026-WINNER-PREDICTION-MODEL",
+            "weather-app",
+            "PumpDiagnosisChallenge"
+        ]
 
         self.stack = [
             "Python", "Go", "TypeScript", "Java", "C", "Deluge",
@@ -316,23 +330,41 @@ class Mukilan:
 
 ---
 
+## 📌 Pinned Repositories
+
+<div align="center">
+
+| 📌 Pinned Repository | 🛠️ Tech Stack | 🌟 Key Innovation & Highlights |
+|:---|:---|:---|
+| [**🧠 Industrial-Operations-Brain**](https://github.com/Mukilan-s18/Industrial-Operations-Brain) | `Python` · `LangGraph` · `Gemini` · `Next.js` | Agentic AI system fusing RAG + Knowledge Graph + Live IoT sensor telemetry |
+| [**🚨 StampedeZero**](https://github.com/Mukilan-s18/StampedeZero) | `Python` · `PyTorch` · `YOLOv8` · `FastAPI` · `React` | Real-time edge AI crowd safety & automated stampede risk detection platform |
+| [**🌐 Mukil-portfolio**](https://github.com/Mukilan-s18/Mukil-portfolio) | `TypeScript` · `Next.js` · `Tailwind CSS` | Live personal developer portfolio · [**mukilans.vercel.app**](https://mukilans.vercel.app) |
+| [**⚽ FIFA-2026-WINNER-PREDICTION-MODEL**](https://github.com/Mukilan-s18/FIFA-2026-WINNER-PREDICTION-MODEL) | `Python` · `Scikit-Learn` · `XGBoost` · `React` | 10,000 Monte Carlo simulations · Validated accuracy on 2022 World Cup finalists |
+| [**🌦️ weather-app**](https://github.com/Mukilan-s18/weather-app) | `React 19` · `Vite` · `REST APIs` · `Windy Radar` | AeroWeather dashboard with ~40% faster load via Vite optimization · [Live Demo](https://mukilan-s18.github.io/weather-app/) |
+| [**🔧 PumpDiagnosisChallenge**](https://github.com/Mukilan-s18/PumpDiagnosisChallenge) | `Python` · `PyTorch` · `ResNet18` · `STFT` | MANGO Platform Workshop Winner (IIT Madras) · Spectrogram transfer learning |
+
+</div>
+
+---
+
 ## 🚀 Featured Projects
 
 <div align="center">
 
 | 🗂️ Project | 🛠️ Stack | ✨ Highlights & Metrics |
 |:---|:---|:---|
-| [⚡ TierGuard Entitlements](https://github.com/Mukilan-s18/TierGuard-Entitlements-Engine) | Go · Redis · HTMX · PostgreSQL | Sub-millisecond SaaS entitlements & usage metering |
 | [🧠 Industrial-Ops-Brain](https://github.com/Mukilan-s18/Industrial-Operations-Brain) | Python · LangGraph · Gemini · RAG | Agentic AI · Knowledge Graph · Live IoT fusion |
-| [🛡️ ConfigGuard (UC-04)](https://github.com/Mukilan-s18/UC-04-Configuration-comparison-SaaS) | Azure Container Apps · Go · OpenTofu | Cloud config diff engine · Concurrency locking |
-| [🔬 Deep-Learning MPS](https://github.com/Mukilan-s18/Deep-Learning) | PyTorch 2.x · Apple MPS · NASA Telemetry | CNN, LSTM, GAN anomaly detection on real telemetry |
-| [🔧 PumpDiagnosisChallenge](https://github.com/Mukilan-s18/PumpDiagnosisChallenge) | Python · PyTorch · ResNet18 · STFT | MANGO Platform AI/ML Winner · Spectrogram analysis |
-| [🔍 Defect-Detection](https://github.com/Mukilan-s18/Defect-Detection) | Python · PyTorch · PatchCore · WideResNet50 | Zero-shot anomaly detection · Unsupervised vision |
 | [🚨 StampedeZero](https://github.com/Mukilan-s18/StampedeZero) | Python · YOLOv8 · FastAPI · React | Real-time crowd safety · Edge AI surveillance |
-| [🤖 CompileAI](https://github.com/Mukilan-s18/CompileAI) | Python · FastAPI · Next.js · OpenAI | NL → App specs · 7-stage pipeline · [Live 🔗](https://compile-ai-rho.vercel.app) |
-| [🌿 Ecosphere Platform](https://github.com/Mukilan-s18/Ecosphere-Management-Platform) | TypeScript · Next.js · Supabase | ESG monitoring · Gamification · [Live 🔗](https://ecosphere-management-platform.vercel.app) |
+| [🌐 Mukil-Portfolio](https://github.com/Mukilan-s18/Mukil-portfolio) | TypeScript · Next.js · Tailwind CSS | Modern personal portfolio · [Live 🔗](https://mukilans.vercel.app) |
 | [⚽ FIFA 2026 Predictor](https://github.com/Mukilan-s18/FIFA-2026-WINNER-PREDICTION-MODEL) | Python · Scikit-Learn · XGBoost · React | 10,000 simulations · Predicted 2022 WC finalists |
 | [🌦️ AeroWeather](https://github.com/Mukilan-s18/weather-app) | React 19 · Vite · REST APIs · Windy Radar | ~40% faster load · Full CI/CD · [Live 🔗](https://mukilan-s18.github.io/weather-app/) |
+| [🔧 PumpDiagnosisChallenge](https://github.com/Mukilan-s18/PumpDiagnosisChallenge) | Python · PyTorch · ResNet18 · STFT | MANGO Platform AI/ML Winner · Spectrogram analysis |
+| [⚡ TierGuard Entitlements](https://github.com/Mukilan-s18/TierGuard-Entitlements-Engine) | Go · Redis · HTMX · PostgreSQL | Sub-millisecond SaaS entitlements & usage metering |
+| [🛡️ ConfigGuard (UC-04)](https://github.com/Mukilan-s18/UC-04-Configuration-comparison-SaaS) | Azure Container Apps · Go · OpenTofu | Cloud config diff engine · Concurrency locking |
+| [🔬 Deep-Learning MPS](https://github.com/Mukilan-s18/Deep-Learning) | PyTorch 2.x · Apple MPS · NASA Telemetry | CNN, LSTM, GAN anomaly detection on real telemetry |
+| [🔍 Defect-Detection](https://github.com/Mukilan-s18/Defect-Detection) | Python · PyTorch · PatchCore · WideResNet50 | Zero-shot anomaly detection · Unsupervised vision |
+| [🤖 CompileAI](https://github.com/Mukilan-s18/CompileAI) | Python · FastAPI · Next.js · OpenAI | NL → App specs · 7-stage pipeline · [Live 🔗](https://compile-ai-rho.vercel.app) |
+| [🌿 Ecosphere Platform](https://github.com/Mukilan-s18/Ecosphere-Management-Platform) | TypeScript · Next.js · Supabase | ESG monitoring · Gamification · [Live 🔗](https://ecosphere-management-platform.vercel.app) |
 | [🔢 MNIST Digit Classifier](https://github.com/Mukilan-s18/mnist-ann-classifier) | Python · TensorFlow · Keras · Gradio · Pytest | 98.08% accuracy · 0.98 F1-score · 100% CI/CD |
 
 </div>
