@@ -15,25 +15,25 @@ START_MARKER = "<!-- PROJECTS:START -->"
 END_MARKER = "<!-- PROJECTS:END -->"
 
 REPO_REGISTRY = {
-    "TierGuard-Entitlements-Engine": {
-        "description": "Ultra low latency SaaS entitlements and usage metering engine built with Go, Redis, and HTMX.",
-        "language": "Go, HTML",
-    },
     "Industrial-Operations-Brain": {
         "description": "Agentic AI system for industrial knowledge intelligence - RAG + Knowledge Graph + Live IoT fusion with LangGraph, Gemini, and Next.js.",
         "language": "Python, TypeScript",
     },
-    "Low-Code-Zoho-Creator": {
-        "description": "Comprehensive Zoho Creator Low-Code Application Development Laboratory records and End Semester Mini Project Report.",
-        "language": "Deluge",
+    "TierGuard-Entitlements-Engine": {
+        "description": "Ultra low latency SaaS entitlements and usage metering engine built with Go, Redis, and HTMX.",
+        "language": "Go, HTML",
+    },
+    "UC-04-Configuration-comparison-SaaS": {
+        "description": "Configuration Comparison SaaS (ConfigGuard) with Azure Container Apps, atomic locking, and A01-A12 compliance.",
+        "language": "HTML, Python, Go",
+    },
+    "Deep-Learning": {
+        "description": "Deep Learning Laboratory experiments & Mini Project in PyTorch 2.x, accelerated on Apple Silicon MPS (GPU) with NASA telemetry.",
+        "language": "Python, PyTorch",
     },
     "Build-and-Deploy-Machine-Learning": {
         "description": "Comprehensive machine learning experiments covering data preprocessing, supervised learning, deep learning, and REST API deployment.",
         "language": "Python, Jupyter",
-    },
-    "Deep-Learning": {
-        "description": "Deep Learning Laboratory experiments & Mini Project in PyTorch 2.x, accelerated on Apple Silicon MPS (GPU).",
-        "language": "Python, PyTorch",
     },
     "StampedeZero": {
         "description": "Real-time edge AI crowd safety platform with YOLOv8 for density estimation and early stampede detection.",
@@ -47,21 +47,33 @@ REPO_REGISTRY = {
         "description": "Predictive ML pipeline and React web app running 10,000 Monte Carlo simulations for 2026 FIFA World Cup.",
         "language": "Python, React",
     },
-    "mnist-ann-classifier": {
-        "description": "MNIST digit classifier using fully connected ANN with MLOps pipeline, MLflow tracking, and Gradio browser demo.",
-        "language": "Python",
+    "PumpDiagnosisChallenge": {
+        "description": "Industrial pump fault diagnosis system on MANGO Platform using Computer Vision & Transfer Learning (ResNet18) on STFT spectrograms.",
+        "language": "Python, PyTorch",
+    },
+    "Defect-Detection": {
+        "description": "State-of-the-art anomaly detection system for industrial manufacturing using PatchCore and WideResNet50.",
+        "language": "Python, PyTorch",
     },
     "weather-app": {
-        "description": "High-performance AeroWeather dashboard built with React 18 + Vite, integrating live atmospheric analytics.",
+        "description": "High-performance AeroWeather dashboard built with React 19 + Vite, integrating live atmospheric analytics and radar.",
         "language": "React, Vite",
     },
     "Ecosphere-Management-Platform": {
         "description": "ESG monitoring and sustainability platform with gamification engine, built on Next.js and Supabase.",
         "language": "TypeScript, Next.js",
     },
+    "mnist-ann-classifier": {
+        "description": "MNIST digit classifier using fully connected ANN with MLOps pipeline, MLflow tracking, and Gradio browser demo.",
+        "language": "Python, Gradio",
+    },
     "Mukil-portfolio": {
         "description": "Modern personal portfolio showcasing AI/ML and full-stack software engineering projects.",
         "language": "TypeScript, Next.js",
+    },
+    "Low-Code-Zoho-Creator": {
+        "description": "Comprehensive Zoho Creator Low-Code Application Development Laboratory records and End Semester Mini Project Report.",
+        "language": "Deluge",
     },
     "FDVA": {
         "description": "Foundations of Data Visualization and Analysis with exploratory data analysis, cleaning, and visual dashboards.",
@@ -71,9 +83,33 @@ REPO_REGISTRY = {
         "description": "Network socket programming, routing protocol simulation, and packet analysis experiments.",
         "language": "Python, C",
     },
-    "UC-04-Configuration-comparison-SaaS": {
-        "description": "Configuration Comparison SaaS (ConfigGuard) with Azure Container Apps, atomic locking, and A01-A12 compliance.",
-        "language": "HTML, Python",
+    "GraphOne-ai-data-intelligence-pipeline": {
+        "description": "High-performance async crawler, LLM structuring, and entity resolution for AI startups and research papers.",
+        "language": "Python, FastAPI",
+    },
+    "POAI-RECORD": {
+        "description": "Fundamental Artificial Intelligence algorithms (Search, Logic, Minimax) implemented in Python and Prolog.",
+        "language": "Python, Prolog",
+    },
+    "JAVA-RECORD": {
+        "description": "Object-Oriented Programming (OOP) using Java laboratory records, modern collections, and JDBC applications.",
+        "language": "Java",
+    },
+    "DAA-RECORD": {
+        "description": "Design and Analysis of Algorithms laboratory experiments, asymptotic analysis, divide and conquer, dynamic programming in C.",
+        "language": "C",
+    },
+    "DBMS-Experiments": {
+        "description": "Database Management System lab experiments with Oracle SQL queries, PL/SQL procedures, and triggers.",
+        "language": "SQL, PL/SQL",
+    },
+    "Operating-Systems": {
+        "description": "Core OS laboratory implementations covering process scheduling, IPC, and memory management in C.",
+        "language": "C, Shell",
+    },
+    "C-Programming-Lab-record": {
+        "description": "Comprehensive C Programming Laboratory records spanning 16 weeks of experiments.",
+        "language": "C",
     },
 }
 
@@ -108,7 +144,6 @@ def update_readme(readme_path, new_section):
         pattern = re.compile(rf"{re.escape(START_MARKER)}.*?{re.escape(END_MARKER)}", re.DOTALL)
         content = pattern.sub(new_section, content)
     else:
-        # Insert before Achievements & Certifications
         target = "## 🎖️ Achievements & Certifications"
         if target in content:
             content = content.replace(target, f"## 📂 All Repositories\n\n{new_section}\n\n---\n\n{target}")
@@ -120,7 +155,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--username", default="Mukilan-s18")
     parser.add_argument("--readme", type=Path, default=Path("README.md"))
-    parser.add_argument("--limit", type=int, default=12)
+    parser.add_argument("--limit", type=int, default=18)
     args = parser.parse_args()
 
     token = os.environ.get("GITHUB_TOKEN")
