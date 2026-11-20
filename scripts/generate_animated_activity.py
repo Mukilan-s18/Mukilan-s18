@@ -7,14 +7,14 @@ import datetime
 
 def fetch_base_svg():
     timestamp = int(datetime.datetime.now().timestamp())
-    url = f"https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=Mukilan-s18&theme=tokyo-night&bg_color=0d1117&color=ded39e&line=ded39e&point=a47467&area=true&hide_border=true&_={timestamp}"
+    url = f"https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=Mukilan-s18&theme=tokyo-night&bg_color=0d1117&color=ded39e&line=ded39e&point=9b8042&area=true&hide_border=true&_={timestamp}"
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
             return resp.read().decode('utf-8')
     except Exception as e:
         print(f"Primary worker failed: {e}, trying vercel fallback...")
-        url_fallback = f"https://github-readme-activity-graph.vercel.app/graph?username=Mukilan-s18&theme=tokyo-night&bg_color=0d1117&color=ded39e&line=ded39e&point=a47467&area=true&hide_border=true&_={timestamp}"
+        url_fallback = f"https://github-readme-activity-graph.vercel.app/graph?username=Mukilan-s18&theme=tokyo-night&bg_color=0d1117&color=ded39e&line=ded39e&point=9b8042&area=true&hide_border=true&_={timestamp}"
         req_fallback = urllib.request.Request(url_fallback, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req_fallback, timeout=15) as resp:
             return resp.read().decode('utf-8')
@@ -32,7 +32,7 @@ def sanitize_svg_header(svg):
 def clarify_timeline_labels(svg):
     """
     Clarifies the x-axis timeline with explicit month milestone labels
-    (Oct 21 -> Nov 1 -> Nov 20) in matching Imperial Gold palette.
+    (Oct 21 -> Nov 1 -> Nov 20) in Champagne Gold (#ded39e).
     """
     def replace_label(match):
         attrs = match.group(1)
@@ -51,14 +51,13 @@ def clarify_timeline_labels(svg):
         new_text = label_map.get(day_str, day_str)
         if " " in new_text:
             return f'<text {attrs} font-weight="700" fill="#ded39e">{new_text}</text>'
-        return f'<text {attrs} fill="#a47467">{new_text}</text>'
+        return f'<text {attrs} fill="#9b8042">{new_text}</text>'
 
     svg = re.sub(
         r'<text ([^>]*?class="ct-label ct-horizontal ct-end"[^>]*)>([^<]+)</text>',
         replace_label,
         svg
     )
-    # Also adjust axis title colors to match
     svg = re.sub(r'(class="ct-axis-title ct-label"[^>]*)>', r'\g<1> fill="#ded39e">', svg)
     return svg
 
@@ -75,20 +74,20 @@ def generate_animated_svg(raw_base_svg, out_dir):
     line_path = get_line_path(svg)
 
     defs = """<defs>
-  <!-- Imperial Gold, Bronze & Terracotta Velvet Gradient -->
-  <linearGradient id="imperialDragonGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+  <!-- Champagne Gold & Obsidian Gradient (#0d1117 -> #544320 -> #9b8042 -> #ded39e) -->
+  <linearGradient id="champagneGoldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
     <stop offset="0%" stop-color="#ded39e" stop-opacity="0.55">
-      <animate attributeName="stop-color" values="#ded39e;#a47467;#a3575d;#ded39e" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="stop-color" values="#ded39e;#9b8042;#544320;#ded39e" dur="7s" repeatCount="indefinite" />
       <animate attributeName="stop-opacity" values="0.35;0.65;0.35" dur="3s" repeatCount="indefinite" />
     </stop>
-    <stop offset="45%" stop-color="#a47467" stop-opacity="0.35">
-      <animate attributeName="stop-color" values="#a47467;#8c4e5c;#573642;#a47467" dur="7s" repeatCount="indefinite" />
+    <stop offset="45%" stop-color="#9b8042" stop-opacity="0.35">
+      <animate attributeName="stop-color" values="#9b8042;#544320;#9b8042" dur="7s" repeatCount="indefinite" />
     </stop>
-    <stop offset="85%" stop-color="#573642" stop-opacity="0.15" />
+    <stop offset="85%" stop-color="#544320" stop-opacity="0.15" />
     <stop offset="100%" stop-color="#0d1117" stop-opacity="0.0" />
   </linearGradient>
 
-  <!-- Imperial Gold Neon Glow Filter -->
+  <!-- Champagne Gold Neon Glow Filter -->
   <filter id="goldNeonGlow" x="-20%" y="-20%" width="140%" height="140%">
     <feGaussianBlur stdDeviation="3.5" result="blur" />
     <feMerge>
@@ -97,8 +96,8 @@ def generate_animated_svg(raw_base_svg, out_dir):
     </feMerge>
   </filter>
 
-  <!-- Terracotta Rose Sparkle Filter -->
-  <filter id="roseSparkleGlow" x="-30%" y="-30%" width="160%" height="160%">
+  <!-- Sparkle Filter -->
+  <filter id="sparkleGlow" x="-30%" y="-30%" width="160%" height="160%">
     <feGaussianBlur stdDeviation="2.5" result="blur" />
     <feMerge>
       <feMergeNode in="blur" />
@@ -110,10 +109,10 @@ def generate_animated_svg(raw_base_svg, out_dir):
     # Inject Defs
     svg = re.sub(r'(<svg[^>]*>)', r'\1\n' + defs, svg, count=1)
 
-    # Base CSS with Imperial Gold & Terracotta Styling
+    # Base CSS with Champagne Gold & Obsidian Styling
     css = """
     .ct-series-a .ct-area {
-      fill: url(#imperialDragonGrad) !important;
+      fill: url(#champagneGoldGrad) !important;
     }
     .ct-series-a .ct-line {
       stroke: #ded39e !important;
@@ -121,14 +120,14 @@ def generate_animated_svg(raw_base_svg, out_dir):
       filter: url(#goldNeonGlow) !important;
     }
     .ct-series-a .ct-point {
-      stroke: #a47467 !important;
+      stroke: #9b8042 !important;
       stroke-linecap: round !important;
     }
     .ct-label.ct-vertical {
-      fill: #a47467 !important;
+      fill: #9b8042 !important;
     }
     .ct-grid.ct-horizontal, .ct-grid.ct-vertical {
-      stroke: #2d2627 !important;
+      stroke: #262014 !important;
       stroke-dasharray: 2, 4 !important;
       opacity: 0.65 !important;
     }
@@ -139,13 +138,13 @@ def generate_animated_svg(raw_base_svg, out_dir):
     point_anim = (
         '<animate attributeName="stroke-width" values="6;13;6" dur="1.8s" repeatCount="indefinite" />'
         '<animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="1.8s" repeatCount="indefinite" />'
-        '<animate attributeName="stroke" values="#a47467;#ded39e;#a47467" dur="3s" repeatCount="indefinite" />'
+        '<animate attributeName="stroke" values="#9b8042;#ded39e;#9b8042" dur="3s" repeatCount="indefinite" />'
     )
     svg = re.sub(r'(<line[^>]*?class="ct-point"[^>]*?>)(</line>)', r'\g<1>' + point_anim + r'\g<2>', svg)
 
     # Dynamic elements: Summit Sparkles & Golden Dragon Comet Particle
     dynamic_elements = f"""<g>
-  <!-- Peak Milestone 1: Day 21 (x=90, y=80) Imperial Gold Sparkle Star -->
+  <!-- Peak Milestone 1: Day 21 (x=90, y=80) Champagne Gold Sparkle Star -->
   <g transform="translate(90, 68)">
     <g filter="url(#goldNeonGlow)">
       <path d="M 0,-14 Q 0,0 14,0 Q 0,0 0,14 Q 0,0 -14,0 Q 0,0 0,-14 Z" fill="#ded39e" opacity="0.95">
@@ -159,32 +158,32 @@ def generate_animated_svg(raw_base_svg, out_dir):
     </g>
   </g>
 
-  <!-- Peak Milestone 2: Today Nov 20 (x=1150, y=140) Rosewood Sparkle Star -->
+  <!-- Peak Milestone 2: Today Nov 20 (x=1150, y=140) Summit Sparkle Star -->
   <g transform="translate(1150, 126)">
-    <g filter="url(#roseSparkleGlow)">
-      <path d="M 0,-12 Q 0,0 12,0 Q 0,0 0,12 Q 0,0 -12,0 Q 0,0 0,-12 Z" fill="#a3575d" opacity="0.95">
+    <g filter="url(#sparkleGlow)">
+      <path d="M 0,-12 Q 0,0 12,0 Q 0,0 0,12 Q 0,0 -12,0 Q 0,0 0,-12 Z" fill="#ded39e" opacity="0.95">
         <animateTransform attributeName="transform" type="rotate" values="360;0" dur="6s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.7;1;0.7" dur="1.5s" repeatCount="indefinite" />
       </path>
-      <circle r="3.5" fill="#ded39e" />
-      <circle r="7" fill="#a47467" opacity="0.4">
+      <circle r="3.5" fill="#ffffff" />
+      <circle r="7" fill="#9b8042" opacity="0.4">
         <animate attributeName="r" values="5;10;5" dur="1.5s" repeatCount="indefinite" />
       </circle>
     </g>
   </g>
 
-  <!-- Golden Dragon Comet Particle Riding along the timeline -->
+  <!-- Champagne Gold Dragon Comet Particle Riding along the timeline -->
   <g filter="url(#goldNeonGlow)">
     <circle r="12" fill="#ded39e" opacity="0.25">
       <animate attributeName="r" values="8;14;8" dur="1.2s" repeatCount="indefinite" />
       <animate attributeName="opacity" values="0.15;0.4;0.15" dur="1.2s" repeatCount="indefinite" />
     </circle>
-    <!-- Imperial Gold Core matching avatar #ded39e -->
+    <!-- Champagne Gold Core #ded39e -->
     <circle r="5.5" fill="#ded39e" />
     <circle r="3" fill="#ffffff" />
-    <!-- Bronze Dragon Whiskers Trail -->
-    <line x1="-8" y1="-3" x2="-2" y2="0" stroke="#a47467" stroke-width="1.2" stroke-linecap="round"/>
-    <line x1="-8" y1="3" x2="-2" y2="0" stroke="#a47467" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Dragon Whiskers Trail in #9b8042 -->
+    <line x1="-8" y1="-3" x2="-2" y2="0" stroke="#9b8042" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="-8" y1="3" x2="-2" y2="0" stroke="#9b8042" stroke-width="1.2" stroke-linecap="round"/>
     <animateMotion path="{line_path}" dur="4.5s" repeatCount="indefinite" rotate="auto" />
   </g>
 </g>"""

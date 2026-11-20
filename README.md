@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=a47467,a36863,a3575d,9b4f5b,8c4e5c,573642&height=200&section=header&text=MUKILAN%20S&fontSize=48&fontColor=ded39e&animation=twinkling&v=2" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0d1117,544320,9b8042,ded39e&height=200&section=header&text=MUKILAN%20S&fontSize=48&fontColor=ded39e&animation=twinkling&v=2" alt="header"/>
 </div>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=DED39E&center=true&vCenter=true&width=800&height=60&lines=Hey%2C+I%27m+Mukilan+S+%F0%9F%91%8B;AI+%26+ML+Engineering+Student;Python+%7C+Go+%7C+PyTorch+Developer;Building+Industrial+AI+%26+Cloud+SaaS+%F0%9F%A7%A0;Turning+Data+into+Intelligence+%F0%9F%9A%80" alt="Typing SVG"/>
@@ -7,19 +7,19 @@
 
 <p align="center">
   <a href="https://github.com/Mukilan-s18">
-    <img src="https://komarev.com/ghpvc/?username=Mukilan-s18&label=Profile+Views&color=ded39e&style=flat-square" alt="Profile Views"/>
+    <img src="https://komarev.com/ghpvc/?username=Mukilan-s18&label=Profile+Views&color=ded39e&style=flat-square&labelColor=0d1117" alt="Profile Views"/>
   </a>
   <a href="https://mukilans.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-mukilans.vercel.app-a3575d?style=flat-square&logo=vercel&logoColor=ded39e" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-mukilans.vercel.app-ded39e?style=flat-square&logo=vercel&logoColor=0d1117&labelColor=0d1117" alt="Portfolio"/>
   </a>
   <a href="https://www.linkedin.com/in/mukilan-s2486">
-    <img src="https://img.shields.io/badge/LinkedIn-Mukilan%20S-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Mukilan%20S-ded39e?style=flat-square&logo=linkedin&logoColor=0d1117&labelColor=0d1117" alt="LinkedIn"/>
   </a>
   <a href="mailto:mukilans25361@gmail.com">
-    <img src="https://img.shields.io/badge/Email-mukilans25361%40gmail.com-a47467?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-mukilans25361%40gmail.com-ded39e?style=flat-square&logo=gmail&logoColor=0d1117&labelColor=0d1117" alt="Email"/>
   </a>
-  <img src="https://img.shields.io/badge/Repos-28-ded39e?style=flat-square&logo=github&logoColor=0d1117" alt="Public Repos"/>
-  <img src="https://img.shields.io/badge/Location-Chennai%2C%20Tamil%20Nadu-8c4e5c?style=flat-square&logo=googlemaps&logoColor=white" alt="Location"/>
+  <img src="https://img.shields.io/badge/Repos-28-ded39e?style=flat-square&logo=github&logoColor=0d1117&labelColor=0d1117" alt="Public Repos"/>
+  <img src="https://img.shields.io/badge/Location-Chennai%2C%20Tamil%20Nadu-ded39e?style=flat-square&logo=googlemaps&logoColor=0d1117&labelColor=0d1117" alt="Location"/>
 </p>
 
 ---
@@ -419,7 +419,7 @@ class Mukilan:
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=a47467,a36863,a3575d,9b4f5b,8c4e5c,573642&height=120&section=footer&fontColor=ded39e&animation=twinkling&v=2" alt="footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0d1117,544320,9b8042,ded39e&height=120&section=footer&fontColor=ded39e&animation=twinkling&v=2" alt="footer"/>
 </div>
 <p align="center">
   <i>⭐ If you find my work interesting, consider giving a star to my repos!</i><br/>

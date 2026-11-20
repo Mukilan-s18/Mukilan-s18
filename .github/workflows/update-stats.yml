@@ -25,7 +25,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: "username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ded39e&icon_color=a3575d&text_color=c9d1d9&border_radius=10&include_all_commits=true"
+          options: "username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ded39e&icon_color=ded39e&text_color=c9d1d9&border_radius=10&include_all_commits=true"
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -42,7 +42,7 @@ jobs:
       - name: Generate Streak Stats card
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: "user=${{ github.repository_owner }}&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=DED39E&fire=A3575D&currStreakLabel=DED39E&sideLabels=A47467&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF&stroke=0D1117&border_radius=10&disable_animations=true"
+          options: "user=${{ github.repository_owner }}&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=DED39E&fire=DED39E&currStreakLabel=DED39E&sideLabels=9B8042&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF&stroke=0D1117&border_radius=10&disable_animations=true"
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 

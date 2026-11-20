@@ -16,7 +16,7 @@ jobs:
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          options: user=${{ github.repository_owner }}&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=DED39E&fire=A3575D&currStreakLabel=DED39E&sideLabels=A47467&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF&stroke=0D1117&border_radius=10
+          options: user=${{ github.repository_owner }}&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=DED39E&fire=DED39E&currStreakLabel=DED39E&sideLabels=9B8042&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF&stroke=0D1117&border_radius=10
           path: streak.svg
       - name: Commit streak stats
         run: |

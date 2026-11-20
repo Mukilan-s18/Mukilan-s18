@@ -6,20 +6,20 @@ def transform_to_dragon(svg_path):
     with open(svg_path, 'r', encoding='utf-8') as f:
         svg = f.read()
 
-    # Imperial Gold & Terracotta Bronze Dragon Head (#ded39e, #a47467, #a3575d, #8c4e5c)
+    # Champagne Gold & Obsidian Dragon Head (#ded39e, #9b8042, #544320, #0d1117)
     dragon_head = """<g class="s s0">
   <g transform="translate(-3, -3) scale(1.35)">
-    <!-- Dragon Horns (Imperial Avatar Gold #ded39e) -->
-    <path d="M 3,4 Q 1,0 0,-3 Q 3,-1 4,3" fill="#ded39e" stroke="#a47467" stroke-width="0.5" />
-    <path d="M 13,4 Q 15,0 16,-3 Q 13,-1 12,3" fill="#ded39e" stroke="#a47467" stroke-width="0.5" />
+    <!-- Dragon Horns (Champagne Gold #ded39e) -->
+    <path d="M 3,4 Q 1,0 0,-3 Q 3,-1 4,3" fill="#ded39e" stroke="#9b8042" stroke-width="0.5" />
+    <path d="M 13,4 Q 15,0 16,-3 Q 13,-1 12,3" fill="#ded39e" stroke="#9b8042" stroke-width="0.5" />
     
-    <!-- Dragon Head Crown (Bronze & Terracotta Rose #a47467 & #a3575d) -->
-    <polygon points="4,3 8,1 12,3 15,7 13,13 8,15 3,13 1,7" fill="#a47467" stroke="#a3575d" stroke-width="0.6"/>
+    <!-- Dragon Head Crown (Deep Gold #9b8042 & Obsidian Umber #544320) -->
+    <polygon points="4,3 8,1 12,3 15,7 13,13 8,15 3,13 1,7" fill="#9b8042" stroke="#544320" stroke-width="0.6"/>
     
     <!-- Dragon Crest (#ded39e) -->
     <path d="M 4,4 Q 8,2 12,4 Q 8,6 4,4" fill="#ded39e"/>
     
-    <!-- Glowing Imperial Gold Dragon Eyes (#ded39e) -->
+    <!-- Glowing Champagne Gold Dragon Eyes (#ded39e) -->
     <ellipse cx="4.5" cy="7.5" rx="1.8" ry="1.2" fill="#ded39e" />
     <ellipse cx="11.5" cy="7.5" rx="1.8" ry="1.2" fill="#ded39e" />
     
@@ -31,10 +31,10 @@ def transform_to_dragon(svg_path):
     <circle cx="4.2" cy="7.2" r="0.4" fill="#ffffff"/>
     <circle cx="11.2" cy="7.2" r="0.4" fill="#ffffff"/>
     
-    <!-- Snout & Nostrils (Deep Rosewood #8c4e5c) -->
-    <rect x="5.5" y="10" width="5" height="4" rx="1.5" fill="#8c4e5c"/>
-    <circle cx="6.8" cy="11.5" r="0.5" fill="#a47467"/>
-    <circle cx="9.2" cy="11.5" r="0.5" fill="#a47467"/>
+    <!-- Snout & Nostrils (Obsidian Umber #544320) -->
+    <rect x="5.5" y="10" width="5" height="4" rx="1.5" fill="#544320"/>
+    <circle cx="6.8" cy="11.5" r="0.5" fill="#9b8042"/>
+    <circle cx="9.2" cy="11.5" r="0.5" fill="#9b8042"/>
     
     <!-- Flowing Golden Whiskers (#ded39e) -->
     <path d="M 3,10 Q -2,12 -3,16" fill="none" stroke="#ded39e" stroke-width="0.6" stroke-linecap="round"/>
@@ -59,7 +59,6 @@ def transform_to_dragon(svg_path):
         svg = re.sub(r'<rect class="s s0"[^>]*/>', dragon_head, svg, count=1)
 
     # Ensure body segments s1, s2, s3 (the extending tail) exist!
-    # If they were stripped, re-inject them before </svg>
     tail_segments = """<rect class="s s1" x="0" y="0" width="12" height="12" rx="3.5" ry="3.5"/>
 <rect class="s s2" x="0" y="0" width="12" height="12" rx="3.5" ry="3.5"/>
 <rect class="s s3" x="0" y="0" width="12" height="12" rx="3.5" ry="3.5"/>"""
@@ -67,35 +66,35 @@ def transform_to_dragon(svg_path):
     if 'class="s s1"' not in svg:
         svg = svg.replace('</svg>', tail_segments + '\n</svg>')
 
-    # Style the dragon body and tail segments with the Imperial Gold & Terracotta Bronze theme
+    # Style the dragon body and tail segments with the Champagne Gold & Obsidian theme
     dragon_css = """
     :root {
-      --cs: #ded39e !important; /* Imperial Avatar Gold */
+      --cs: #ded39e !important; /* Champagne Gold */
     }
     .s {
       shape-rendering: geometricPrecision;
       fill: #ded39e !important;
-      stroke: #a47467 !important;
+      stroke: #9b8042 !important;
       stroke-width: 0.8px;
     }
     .s.s1 {
-      fill: #e8dfb5 !important;
-      stroke: #a47467 !important;
+      fill: #ded39e !important;
+      stroke: #9b8042 !important;
     }
     .s.s2 {
-      fill: #ded39e !important;
-      stroke: #a3575d !important;
+      fill: #cbbd84 !important;
+      stroke: #544320 !important;
     }
     .s.s3 {
-      fill: #a47467 !important;
-      stroke: #8c4e5c !important;
+      fill: #9b8042 !important;
+      stroke: #0d1117 !important;
     }
     """
     svg = svg.replace('</style>', dragon_css + '\n</style>')
 
     with open(svg_path, 'w', encoding='utf-8') as f:
         f.write(svg)
-    print(f"Transformed {svg_path} into Imperial Gold Dragon with extending tail!")
+    print(f"Transformed {svg_path} into Champagne Gold Dragon with extending tail!")
 
 if __name__ == '__main__':
     for path in sys.argv[1:]:
