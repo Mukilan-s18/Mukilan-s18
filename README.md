@@ -158,9 +158,9 @@ class Mukilan:
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./github-metrics/github-contribution-grid-dragon-dark.svg?v=20261121">
-    <source media="(prefers-color-scheme: light)" srcset="./github-metrics/github-contribution-grid-dragon.svg?v=20261121">
-    <img alt="GitHub Contribution Dragon" src="./github-metrics/github-contribution-grid-dragon-dark.svg?v=20261121" />
+    <source media="(prefers-color-scheme: dark)" srcset="./github-metrics/github-contribution-grid-dragon-dark.svg?v=20261121b">
+    <source media="(prefers-color-scheme: light)" srcset="./github-metrics/github-contribution-grid-dragon.svg?v=20261121b">
+    <img alt="GitHub Contribution Dragon" src="./github-metrics/github-contribution-grid-dragon-dark.svg?v=20261121b" />
   </picture>
 </div>
 
