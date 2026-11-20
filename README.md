@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0d1117,544320,9b8042,ded39e&height=200&section=header&text=MUKILAN%20S&fontSize=48&fontColor=ded39e&animation=twinkling&v=2" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,35:544320,70:9b8042,100:ded39e&height=200&section=header&text=MUKILAN%20S&fontSize=48&fontColor=ded39e&animation=twinkling&reversal=false&v=20261120" alt="header"/>
 </div>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=DED39E&center=true&vCenter=true&width=800&height=60&lines=Hey%2C+I%27m+Mukilan+S+%F0%9F%91%8B;AI+%26+ML+Engineering+Student;Python+%7C+Go+%7C+PyTorch+Developer;Building+Industrial+AI+%26+Cloud+SaaS+%F0%9F%A7%A0;Turning+Data+into+Intelligence+%F0%9F%9A%80" alt="Typing SVG"/>
@@ -21,7 +21,7 @@
   <a href="mailto:mukilan.s.2024.aiml@rajalakshmi.edu.in">
     <img src="https://img.shields.io/badge/Campus%20Email-mukilan.s.2024.aiml%40rajalakshmi.edu.in-ded39e?style=flat-square&logo=gmail&logoColor=0d1117&labelColor=0d1117" alt="Campus Email"/>
   </a>
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Roles%20%7C%20hireable%3A%20true-ded39e?style=flat-square&logo=github&logoColor=0d1117&labelColor=0d1117" alt="Status: Open to Roles (hireable: true)"/>
+  <img src="https://img.shields.io/static/v1?label=Status&message=Open%20to%20Roles%20(hireable%3A%20true)&color=ded39e&labelColor=0d1117&style=flat-square&logo=github&logoColor=ded39e" alt="Status: Open to Roles (hireable: true)"/>
   <img src="https://img.shields.io/badge/Repos-28-ded39e?style=flat-square&logo=github&logoColor=0d1117&labelColor=0d1117" alt="Public Repos"/>
   <img src="https://img.shields.io/badge/Location-Chennai%2C%20Tamil%20Nadu-ded39e?style=flat-square&logo=googlemaps&logoColor=0d1117&labelColor=0d1117" alt="Location"/>
 </p>
@@ -451,7 +451,7 @@ class Mukilan:
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0d1117,544320,9b8042,ded39e&height=120&section=footer&fontColor=ded39e&animation=twinkling&v=2" alt="footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,35:544320,70:9b8042,100:ded39e&height=120&section=footer&fontColor=ded39e&animation=twinkling&reversal=false&v=20261120" alt="footer"/>
 </div>
 <p align="center">
   <i>⭐ If you find my work interesting, consider giving a star to my repos!</i><br/>

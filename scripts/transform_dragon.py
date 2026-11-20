@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import sys
 import re
+import xml.etree.ElementTree as ET
 
 def transform_to_dragon(svg_path):
     with open(svg_path, 'r', encoding='utf-8') as f:
@@ -68,26 +69,21 @@ def transform_to_dragon(svg_path):
 </g>"""
 
     # Ensure body segments s1, s2, s3 (the extending tail) exist
-    tail_segments = """<rect class="s s1" x="0" y="0" width="12" height="12" rx="3.5" ry="3.5"/>
-<rect class="s s2" x="0" y="0" width="12" height="12" rx="3.5" ry="3.5"/>
-<rect class="s s3" x="0" y="0" width="12" height="12" rx="3.5" ry="3.5"/>"""
+    tail_segments = """<rect class="s s1" width="12" height="12" rx="3.5" ry="3.5"/><rect class="s s2" width="12" height="12" rx="3.5" ry="3.5"/><rect class="s s3" width="12" height="12" rx="3.5" ry="3.5"/>"""
 
-    if 'class="s s1"' not in svg:
-        svg = svg.replace('</svg>', tail_segments + '\n</svg>')
+    # If s1 is not present, add tail segments before </svg>
+    if '<rect class="s s1"' not in svg:
+        svg = svg.replace('</svg>', f'{tail_segments}</svg>')
 
     # Replace s0 with dragon head
-    if '<rect class="s s1"' in svg:
-        svg = re.sub(
-            r'(<g class="s s0">|<rect class="s s0"[^>]*/>).*?(?=<rect class="s s1")',
-            dragon_head,
-            svg,
-            count=1,
-            flags=re.DOTALL
-        )
-    elif '<g class="s s0">' in svg:
-        svg = re.sub(r'<g class="s s0">.*?</g>\s*</g>', dragon_head, svg, count=1, flags=re.DOTALL)
+    if '<g class="s s0">' in svg:
+        svg = re.sub(r'<g class="s s0">.*?(?=<rect class="s s1")', dragon_head, svg, count=1, flags=re.DOTALL)
     elif '<rect class="s s0"' in svg:
         svg = re.sub(r'<rect class="s s0"[^>]*/>', dragon_head, svg, count=1)
+
+    # Clean existing custom CSS blocks
+    svg = re.sub(r'/\* DRAGON_CSS_START \*/.*?/\* DRAGON_CSS_END \*/', '', svg, flags=re.DOTALL)
+    svg = re.sub(r':root\s*\{\s*--cs:\s*#ded39e.*?\}\s*\}', '', svg, flags=re.DOTALL)
 
     # Style the dragon body and tail segments with the Champagne Gold & Obsidian theme
     dragon_css = """/* DRAGON_CSS_START */
@@ -114,12 +110,14 @@ def transform_to_dragon(svg_path):
     }
     /* DRAGON_CSS_END */"""
 
-    if '/* DRAGON_CSS_START */' in svg:
-        svg = re.sub(r'/\* DRAGON_CSS_START \*/.*?/\* DRAGON_CSS_END \*/', dragon_css, svg, flags=re.DOTALL)
-    else:
-        # Strip older custom blocks if present
-        svg = re.sub(r':root\s*\{\s*--cs:\s*#ded39e.*?\}\s*\}', '', svg, flags=re.DOTALL)
-        svg = svg.replace('</style>', dragon_css + '\n</style>')
+    svg = svg.replace('</style>', dragon_css + '\n</style>')
+
+    # Validate XML before saving!
+    try:
+        ET.fromstring(svg)
+    except Exception as e:
+        print(f"ERROR: XML validation failed for {svg_path}: {e}")
+        raise e
 
     with open(svg_path, 'w', encoding='utf-8') as f:
         f.write(svg)
