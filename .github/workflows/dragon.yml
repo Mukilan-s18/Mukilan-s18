@@ -1,0 +1,56 @@
+name: Generate Contribution Dragon Animation & Animated Activity Graph
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # Every 12 hours
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub Contribution Grid Runner
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-dragon.svg
+            dist/github-contribution-grid-dragon-dark.svg?palette=github-dark
+
+      - name: Fix permissions
+        run: sudo chown -R $USER:$USER dist/
+
+      - name: Transform Runner into Celestial Dragon
+        run: |
+          python3 scripts/transform_dragon.py dist/github-contribution-grid-dragon.svg dist/github-contribution-grid-dragon-dark.svg
+
+      - name: Generate Animated Activity Graph
+        run: |
+          python3 scripts/generate_animated_activity.py dist
+
+      - name: Sync to github-metrics on main
+        run: |
+          mkdir -p github-metrics
+          cp dist/*.svg github-metrics/
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add github-metrics/*.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(metrics): auto-sync live SVGs to github-metrics" && git push origin main) || true
+
+      - name: Push SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2e3440,3b4252,434c5e&height=200&section=header&text=MUKILAN%20S&fontSize=48&fontColor=88c0d0&animation=twinkling&v=2" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=030f26,0a1931,004e92,0077b6,00b4d8&height=200&section=header&text=MUKILAN%20S&fontSize=48&fontColor=ffffff&animation=twinkling&v=2" alt="header"/>
 </div>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=800&height=60&lines=Hey%2C+I%27m+Mukilan+S+%F0%9F%91%8B;AI+%26+ML+Engineering+Student;Python+%7C+React+%7C+PyTorch+Developer;Building+Industrial+AI+%26+Computer+Vision+%F0%9F%A7%A0;Turning+Data+into+Intelligence+%F0%9F%9A%80" alt="Typing SVG"/>
@@ -9,13 +9,16 @@
   <a href="https://github.com/Mukilan-s18">
     <img src="https://komarev.com/ghpvc/?username=Mukilan-s18&label=Profile+Views&color=70a5fd&style=flat-square" alt="Profile Views"/>
   </a>
+  <a href="https://mukilans.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-mukilans.vercel.app-0077B5?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/>
+  </a>
   <a href="https://www.linkedin.com/in/mukilan-s2486">
     <img src="https://img.shields.io/badge/LinkedIn-Mukilan%20S-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:mukilans25361@gmail.com">
     <img src="https://img.shields.io/badge/Email-mukilans25361%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <img src="https://img.shields.io/badge/Repos-19-38BDAE?style=flat-square&logo=github&logoColor=white" alt="Public Repos"/>
+  <img src="https://img.shields.io/badge/Repos-28-38BDAE?style=flat-square&logo=github&logoColor=white" alt="Public Repos"/>
   <img src="https://img.shields.io/badge/Location-Chennai%2C%20Tamil%20Nadu-38BDAE?style=flat-square&logo=googlemaps&logoColor=white" alt="Location"/>
 </p>
 
@@ -32,7 +35,8 @@ class Mukilan:
         self.location     = "Chennai, Tamil Nadu 🇮🇳"
         self.degree       = "B.Tech – AI & ML @ REC, Chennai (2028)"
         self.email        = "mukilans25361@gmail.com"
-        self.public_repos = 19
+        self.portfolio    = "https://mukilans.vercel.app"
+        self.public_repos = 28
 
         self.stack = [
             "Python", "TypeScript", "Java", "C",
@@ -133,10 +137,22 @@ class Mukilan:
 
 ---
 
+## 🐉 Contribution Graph
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./github-metrics/github-contribution-grid-dragon-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./github-metrics/github-contribution-grid-dragon.svg">
+    <img alt="GitHub Contribution Dragon" src="./github-metrics/github-contribution-grid-dragon-dark.svg" />
+  </picture>
+</div>
+
+---
+
 ## 📈 Activity Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mukilan-s18&theme=tokyo-night&bg_color=0d1117&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true" alt="Activity Graph"/>
+  <img src="./github-metrics/activity-graph.svg" alt="Activity Graph"/>
 </div>
 
 ---
@@ -284,6 +300,27 @@ class Mukilan:
 
 ---
 
+## 📂 All Repositories
+
+<!-- PROJECTS:START -->
+| Repository | Description | Primary Language |
+| :--- | :--- | :--- |
+| [**Mukil-portfolio**](https://github.com/Mukilan-s18/Mukil-portfolio) | Modern personal portfolio showcasing AI/ML and full-stack software engineering projects. | `TypeScript, Next.js` |
+| [**StampedeZero**](https://github.com/Mukilan-s18/StampedeZero) | Real-time edge AI crowd safety platform with YOLOv8 for density estimation and early stampede detection. | `Python, React` |
+| [**Industrial-Operations-Brain**](https://github.com/Mukilan-s18/Industrial-Operations-Brain) | Agentic AI system for industrial knowledge intelligence - RAG + Knowledge Graph + Live IoT fusion with LangGraph, Gemini, and Next.js. | `Python, TypeScript` |
+| [**Low-Code-Zoho-Creator**](https://github.com/Mukilan-s18/Low-Code-Zoho-Creator) | Comprehensive Zoho Creator Low-Code Application Development Laboratory records and End Semester Mini Project Report. | `Deluge` |
+| [**Build-and-Deploy-Machine-Learning**](https://github.com/Mukilan-s18/Build-and-Deploy-Machine-Learning) | Comprehensive machine learning experiments covering data preprocessing, supervised learning, deep learning, and REST API deployment. | `Python, Jupyter` |
+| [**Deep-Learning**](https://github.com/Mukilan-s18/Deep-Learning) | Deep Learning Laboratory experiments & Mini Project in PyTorch 2.x, accelerated on Apple Silicon MPS (GPU). | `Python, PyTorch` |
+| [**UC-04-Configuration-comparison-SaaS**](https://github.com/Mukilan-s18/UC-04-Configuration-comparison-SaaS) | Configuration Comparison SaaS (ConfigGuard) with Azure Container Apps, atomic locking, and A01-A12 compliance. | `HTML, Python` |
+| [**TierGuard-Entitlements-Engine**](https://github.com/Mukilan-s18/TierGuard-Entitlements-Engine) | Ultra low latency SaaS entitlements and usage metering engine built with Go, Redis, and HTMX. | `Go, HTML` |
+| [**Computer-Networks-Lab**](https://github.com/Mukilan-s18/Computer-Networks-Lab) | Network socket programming, routing protocol simulation, and packet analysis experiments. | `Python, C` |
+| [**FDVA**](https://github.com/Mukilan-s18/FDVA) | Foundations of Data Visualization and Analysis with exploratory data analysis, cleaning, and visual dashboards. | `Python` |
+| [**mnist-ann-classifier**](https://github.com/Mukilan-s18/mnist-ann-classifier) | MNIST digit classifier using fully connected ANN with MLOps pipeline, MLflow tracking, and Gradio browser demo. | `Python` |
+| [**Ecosphere-Management-Platform**](https://github.com/Mukilan-s18/Ecosphere-Management-Platform) | ESG monitoring and sustainability platform with gamification engine, built on Next.js and Supabase. | `TypeScript, Next.js` |
+<!-- PROJECTS:END -->
+
+---
+
 ## 🎖️ Achievements & Certifications
 
 <div align="center">
@@ -334,7 +371,7 @@ class Mukilan:
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2e3440,3b4252,434c5e&height=120&section=footer&animation=twinkling&v=2" alt="footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=030f26,0a1931,004e92,0077b6,00b4d8&height=120&section=footer&animation=twinkling&v=2" alt="footer"/>
 </div>
 <p align="center">
   <i>⭐ If you find my work interesting, consider giving a star to my repos!</i><br/>
